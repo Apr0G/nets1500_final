@@ -1,0 +1,82 @@
+[
+  {
+    "id": "CIS",
+    "name": "Computer and Information Science",
+    "school": "SEAS",
+    "requiredCourses": [
+      "CIS 1100",
+      "CIS 1200",
+      "CIS 1210",
+      "CIS 1600",
+      "CIS 2400",
+      "CIS 3200",
+      "CIS 3500",
+      "MATH 1400",
+      "MATH 2400",
+      "ESE 3010",
+      "PHYS 0150",
+      "WRIT 0100"
+    ],
+    "choiceGroups": [
+      {
+        "name": "Technical Breadth Seminar",
+        "courses": ["CIS 4550", "CIS 5200", "CIS 5500", "CIS 5450", "CIS 4410"],
+        "count": 2
+      },
+      {
+        "name": "Systems Elective",
+        "courses": ["CIS 3800", "CIS 4710"],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "NETS",
+    "name": "Networked and Social Systems Engineering",
+    "school": "SEAS",
+    "requiredCourses": [
+      "CIS 1100",
+      "CIS 1200",
+      "CIS 1210",
+      "CIS 1600",
+      "NETS 1120",
+      "NETS 1500",
+      "NETS 3120",
+      "CIS 3200",
+      "MATH 1400",
+      "MATH 2400",
+      "ESE 3010",
+      "PHYS 0150",
+      "WRIT 0100"
+    ],
+    "choiceGroups": [
+      {
+        "name": "NETS Technical Elective",
+        "courses": ["CIS 4550", "CIS 5200", "CIS 5500", "CIS 5450"],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "CSCI",
+    "name": "Computer Science",
+    "school": "CAS",
+    "requiredCourses": [
+      "CIS 1100",
+      "CIS 1200",
+      "CIS 1210",
+      "CIS 1600",
+      "CIS 2400",
+      "CIS 3200",
+      "MATH 1400",
+      "WRIT 0100"
+    ],
+    "choiceGroups": [
+      {
+        "name": "Upper-Level CS Elective",
+        "courses": ["CIS 4550", "CIS 5200", "CIS 5500", "CIS 5450", "CIS 3800", "CIS 4410", "CIS 4600"],
+        "count": 3
+      }
+    ]
+  }
+]
