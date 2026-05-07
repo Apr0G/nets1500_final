@@ -4,14 +4,8 @@ import java.util.List;
 
 public class MajorData {
     private String id;
-    private String name;
-    private String school;
-    private List<String> requiredCourses;
-    private List<ChoiceGroup> choiceGroups;
+    private List<RuleEntry> rules;
 
     public String getId() { return id; }
-    public String getName() { return name; }
-    public String getSchool() { return school; }
-    public List<String> getRequiredCourses() { return requiredCourses == null ? List.of() : requiredCourses; }
-    public List<ChoiceGroup> getChoiceGroups() { return choiceGroups == null ? List.of() : choiceGroups; }
+    public List<RuleEntry> getRules() { return rules == null ? List.of() : rules; }
 }

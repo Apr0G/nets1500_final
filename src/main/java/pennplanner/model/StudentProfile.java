@@ -50,6 +50,7 @@ public class StudentProfile {
     public String getSchool() { return school; }
 
     public double getTargetCUs() {
-        return school != null && school.equalsIgnoreCase("CAS") ? 32.0 : 38.0;
+        double base = school != null && school.equalsIgnoreCase("CAS") ? 32.0 : 38.0;
+        return base + minorIds.size() * 6.0;
     }
 }

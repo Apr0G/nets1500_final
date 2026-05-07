@@ -11,7 +11,6 @@ public class Course {
     private final boolean offeredFall;
     private final boolean offeredSpring;
     private final boolean notOfferedEveryYear;
-    private final List<String> requiredFor;
     private final List<String> equivalentCourses;
 
     public Course(RawCourse raw) {
@@ -23,7 +22,6 @@ public class Course {
         this.offeredFall = raw.isOfferedFall();
         this.offeredSpring = raw.isOfferedSpring();
         this.notOfferedEveryYear = raw.isNotOfferedEveryYear();
-        this.requiredFor = raw.getRequiredFor();
 
         java.util.Set<String> equiv = new java.util.LinkedHashSet<>();
         equiv.addAll(raw.getMutuallyExclusive());
@@ -39,6 +37,5 @@ public class Course {
     public boolean isOfferedFall() { return offeredFall; }
     public boolean isOfferedSpring() { return offeredSpring; }
     public boolean isNotOfferedEveryYear() { return notOfferedEveryYear; }
-    public List<String> getRequiredFor() { return requiredFor; }
     public List<String> getEquivalentCourses() { return equivalentCourses; }
 }
